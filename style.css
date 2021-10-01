@@ -52,8 +52,25 @@ header .navbar {
 
 
 /* 
-    CARDS
+    HERO2
 */
+
+#hero2 {
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-color: tomato;
+}
+
+/* 
+    NUOVE USCITE
+*/
+
+#nuove_uscite .titolo{
+    color: white;
+}
+
 
 /* **************
    / MAIN
