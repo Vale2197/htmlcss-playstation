@@ -71,6 +71,28 @@ header .navbar {
     color: white;
 }
 
+/* 
+    PS PLUS
+*/
+#ps_plus {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: pink;
+}
+
+/* 
+    PS NOW
+*/
+
+#ps_now {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(255, 149, 149);
+}
 
 /* **************
    / MAIN
