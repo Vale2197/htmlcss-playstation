@@ -12,6 +12,12 @@ body {
     HEADER
 */
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 header .navbar-toggler {
     margin-left: auto;
 }
@@ -39,7 +45,6 @@ header .navbar {
 */
 #jumbo {
     height: 400px;
-    position: relative;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -50,17 +55,6 @@ header .navbar {
     CARDS
 */
 
-
-
 /* **************
    / MAIN
 **************** */
-
-
-
-
-
-
-@media screen and (max-width:992px) {
-  
-}
