@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 /* 
     HEADER
 */
@@ -19,4 +23,39 @@ header .sony {
 
 header .navbar {
     background-color: white;
+}
+/* 
+    / HEADER
+*/
+
+
+
+
+/* **************
+    MAIN
+**************** */
+/* 
+ JUMBO
+*/
+#jumbo {
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+
+
+/* **************
+   / MAIN
+**************** */
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+  
 }
