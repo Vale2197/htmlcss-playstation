@@ -189,10 +189,25 @@ header nav .fa-chevron-down {
 /* 
     NUOVE USCITE
 */
-
-#nuove_uscite .titolo{
+#nuove_uscite {
     color: white;
+    background-color: var(--nuove-uscite);
 }
+
+#nuove_uscite .element img {
+    border-radius: 1.5rem;
+}
+/* 
+    / NUOVE USCITE
+*/
+
+
+
+
+
+
+
+
 
 /* 
     PS PLUS
