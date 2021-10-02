@@ -236,12 +236,37 @@ header nav .fa-chevron-down {
     PS PLUS
 */
 #ps_plus {
-    height: 300px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: pink;
+    background-image: url("./img/ps-plus-april-monthly-games-featured-image-block.png");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #BEBCBB;
+    font-weight: bold;
 }
+
+#ps_plus .titolo_img {
+    width: 50%;
+}
+
+#ps_plus button {
+    background-color: var(--light-btn);
+    color: var(--light-blue-txt);
+    font-weight: bold;
+    border: none;
+}
+/* 
+    / PS PLUS
+*/
+
+
+
+
+
+
+
 
 /* 
     PS NOW
@@ -258,3 +283,15 @@ header nav .fa-chevron-down {
 /* **************
    / MAIN
 **************** */
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #ps_plus {
+        background-image: none;
+    }
+}
