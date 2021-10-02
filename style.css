@@ -159,14 +159,32 @@ header nav .fa-chevron-down {
 /* 
     HERO2
 */
-
 #hero2 {
-    height: 400px;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    background-color: tomato;
+    background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
+
+#hero2 .titolo_img {
+    width: 40%;
+}
+
+#hero2 button {
+    background-color: var(--btn-red);
+    color: white;
+}
+/* 
+    /  HERO2
+*/
+
+
+
+
+
 
 /* 
     NUOVE USCITE
