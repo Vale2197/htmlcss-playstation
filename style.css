@@ -8,6 +8,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
+:root {
+    --color-nav-btn: #363636;
+    --nuove-uscite: #1F1F1F;
+    --btn-red: #CD3D0F;
+    --btn-blu: #2D64E6;
+    --light-btn: #D9DADC;
+    --white-btn: #F5F5F5;
+    --light-blue-txt: #0072CE;
+    --footer-bg: #00439C;
+}
+
 /* 
     HEADER
 */
@@ -30,6 +41,30 @@ header .sony {
 header .navbar {
     background-color: white;
 }
+
+header .sony .img {
+    width: 5rem;
+}
+
+header nav ul li.MyPs a {
+    color: black!important;
+}
+
+header nav form .btn_nav {
+    background-color: var(--color-nav-btn);
+    color: white;
+}
+
+header nav form .fa-search {
+    color: var(--color-nav-btn);
+}
+
+header nav .fa-chevron-down {
+    vertical-align: middle;
+    font-size: .7rem;
+    color: gray;
+}
+
 /* 
     / HEADER
 */
