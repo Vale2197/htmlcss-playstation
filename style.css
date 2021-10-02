@@ -206,6 +206,29 @@ header nav .fa-chevron-down {
 
 
 
+/* 
+        PS4
+*/
+#ps4 .titolo .fs-5 {
+    color: gray;
+    font-weight: bold;
+}
+
+#ps4 .card {
+    border: none;
+}
+
+#ps4 .card .card-text {
+    color: gray;
+    font-weight: bold;
+}
+/* 
+      /  PS4
+*/
+
+
+
+
 
 
 
