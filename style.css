@@ -100,13 +100,27 @@ header nav .fa-chevron-down {
     width: 50%;
     padding-bottom: 3rem;
 }
-
 /* 
      /  JUMBO
 */
 
 
 
+
+
+
+
+/* 
+        CARDS
+*/
+#cards .img img {
+    border-radius: 1.5rem;
+}
+
+
+/* 
+      /  CARDS
+*/
 
 
 
