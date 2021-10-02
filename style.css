@@ -116,11 +116,42 @@ header nav .fa-chevron-down {
 #cards .img img {
     border-radius: 1.5rem;
 }
-
-
 /* 
       /  CARDS
 */
+
+
+
+
+
+
+/* 
+        PS5
+*/
+#ps5 .info .col-12 button{
+    background-color: var(--btn-blu);
+    color: white;
+}
+
+#ps5 .titolo p.blue_txt {
+    color: var(--light-blue-txt);
+    font-weight: bold;
+}
+
+#ps5 .fs-5 {
+    color: gray;
+    font-weight: bold ;
+}
+
+#ps5 .cards_ps5 .element  {
+    opacity: 0.7;
+}
+/* 
+       / PS5
+*/
+
+
+
 
 
 
