@@ -286,12 +286,33 @@ header nav .fa-chevron-down {
 */
 
 #ps_now {
-    height: 300px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(255, 149, 149);
+    background-image: url("./img/ps-now-april-featured-image-block.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #161C3B;
+    color: white;
 }
+
+#ps_now button {
+    background-color: var(--white-btn);
+    color: black;
+}
+
+#ps_now .titolo_img {
+    width: 50%;
+}
+
+
+
+
+/* 
+   /  PS NOW
+*/
 
 /* **************
    / MAIN
@@ -305,6 +326,10 @@ header nav .fa-chevron-down {
 
 @media screen and (max-width: 768px) {
     #ps_plus {
+        background-image: none;
+    }
+
+    #ps_now {
         background-image: none;
     }
 }
