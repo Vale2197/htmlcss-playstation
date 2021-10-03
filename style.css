@@ -318,7 +318,34 @@ header nav .fa-chevron-down {
    / MAIN
 **************** */
 
+/* 
+    FOOTER
+*/
+footer .logo_img img {
+    width: 30%;
+    filter: brightness(0) invert(1);
+}
 
+footer {
+    color: white;
+    background-color: #00439C;
+}
+
+footer .link_footer ul {
+    list-style-type: none;
+}
+
+footer .sony_img {
+    width: 30%;
+    padding-top: 9rem;
+}
+
+footer .link_footer {
+    padding-top: 3rem;
+}
+/* 
+   / FOOTER
+*/
 
 
 
@@ -331,5 +358,9 @@ header nav .fa-chevron-down {
 
     #ps_now {
         background-image: none;
+    }
+
+    footer .sony_img {
+        padding-top: 4rem;
     }
 }
