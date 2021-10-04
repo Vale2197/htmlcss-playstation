@@ -339,6 +339,13 @@ header nav .menu_right button:hover {
     color: var(--light-blue-txt);
     font-weight: bold;
     border: none;
+    transition: 0.3s;
+}
+
+#ps_plus button:hover {
+    outline: 3px solid #EAC854;
+    outline-offset: -4px;
+    color: white;
 }
 /* 
     / PS PLUS
@@ -355,6 +362,14 @@ header nav .menu_right button:hover {
 #sales .titolo .fs-5 {
     color: gray;
 }
+
+#sales .img-fluid {
+    transition: 0.3s;
+}
+
+#sales .img-fluid:hover {
+    margin-top: -10px;
+ }
 /* 
       /  SALES
 */
@@ -396,12 +411,26 @@ header nav .menu_right button:hover {
     width: 50%;
 }
 
+/* 
+   /  PS NOW
+*/
 
 
 
 /* 
-   /  PS NOW
+        SOCIAL
 */
+#social .img-fluid:hover {
+    box-shadow: 3px 3px 5px grey;
+}
+
+#social .img-fluid {
+    transition: 0.3s;
+}
+/* 
+      /  SOCIAL
+*/
+
 
 /* **************
    / MAIN
