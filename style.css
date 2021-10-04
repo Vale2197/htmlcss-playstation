@@ -468,6 +468,16 @@ footer .sony_img {
 footer .link_footer {
     padding-top: 3rem;
 }
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
 /* 
    / FOOTER
 */
