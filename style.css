@@ -173,6 +173,7 @@ header nav .menu_right button:hover {
 #ps5 .info .col-12 button{
     background-color: var(--btn-blu);
     color: white;
+    transition: 0.3s;
 }
 
 #ps5 .titolo p.blue_txt {
@@ -197,6 +198,12 @@ header nav .menu_right button:hover {
 #ps5 .cards_ps5 .ps5_special {
     border-bottom: 2px solid var(--light-blue-txt);
     opacity: 1;
+}
+
+#ps5 .info .col-12 button:hover {
+    outline: 3px solid white;
+    outline-offset: -4px;
+    color: white;
 }
 /* 
        / PS5
