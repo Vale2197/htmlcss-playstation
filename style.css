@@ -296,6 +296,15 @@ header nav .menu_right button:hover {
     outline-offset: -4px;
     color: white;
 }
+
+#ps4 .shadow_card {
+    transition: 0.3s;
+}
+
+#ps4 .shadow_card:hover {
+    border-radius: 3.5rem;
+    box-shadow: 4px 4px 7px grey;
+}
 /* 
       /  PS4
 */
