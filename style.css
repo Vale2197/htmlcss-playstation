@@ -66,6 +66,23 @@ header nav .fa-chevron-down {
     color: gray;
 }
 
+header nav .navbar .nav-item:hover .nav-link,
+header nav .navbar .nav-item:hover .nav-link .fa-chevron-down, 
+header nav .menu_right .MyPs:hover a.nav-link,
+header nav .menu_right .fa-search:hover
+{
+    color: var(--light-blue-txt)!important;
+}
+
+header nav .menu_right button {
+    transition: 0.3s;
+}
+
+header nav .menu_right button:hover {
+    outline: 3px solid white;
+    outline-offset: -4px;
+    color: white;
+}
 /* 
     / HEADER
 */
@@ -100,6 +117,16 @@ header nav .fa-chevron-down {
     width: 50%;
     padding-bottom: 3rem;
 }
+
+
+#jumbo button {
+    transition: 0.3s;
+}
+
+#jumbo button:hover {
+    outline: 1px solid black;
+    outline-offset: -4px;
+}
 /* 
      /  JUMBO
 */
@@ -116,6 +143,21 @@ header nav .fa-chevron-down {
 #cards .img img {
     border-radius: 1.5rem;
 }
+
+#cards .special_border img{
+    border: 3px solid var(--light-blue-txt);
+    outline: 3px solid white;
+    outline-offset: -5px;
+}
+
+#cards .img {
+    transition: 0.3s;
+}
+
+#cards .img:hover {
+   margin-top: -10px;
+}
+
 /* 
       /  CARDS
 */
@@ -145,6 +187,16 @@ header nav .fa-chevron-down {
 
 #ps5 .cards_ps5 .element  {
     opacity: 0.7;
+    transition: 0.3s;
+}
+
+#ps5 .cards_ps5 .element:hover {
+    opacity: 1;
+}
+
+#ps5 .cards_ps5 .ps5_special {
+    border-bottom: 2px solid var(--light-blue-txt);
+    opacity: 1;
 }
 /* 
        / PS5
@@ -176,6 +228,12 @@ header nav .fa-chevron-down {
 #hero2 button {
     background-color: var(--btn-red);
     color: white;
+    transition: 0.3s;
+}
+
+#hero2 button:hover {
+    outline: 1px solid black;
+    outline-offset: -4px;
 }
 /* 
     /  HERO2
@@ -196,6 +254,12 @@ header nav .fa-chevron-down {
 
 #nuove_uscite .element img {
     border-radius: 1.5rem;
+    transition: 0.3s;
+}
+
+#nuove_uscite .element:hover img {
+    margin-top: -2px;
+    box-shadow: 4px 4px 10px black;
 }
 /* 
     / NUOVE USCITE
@@ -221,6 +285,16 @@ header nav .fa-chevron-down {
 #ps4 .card .card-text {
     color: gray;
     font-weight: bold;
+}
+
+#ps4 .card .btn {
+    transition: 0.3s;
+}
+
+#ps4 .card .btn:hover {
+    outline: 3px solid white;
+    outline-offset: -4px;
+    color: white;
 }
 /* 
       /  PS4
@@ -301,6 +375,12 @@ header nav .fa-chevron-down {
 #ps_now button {
     background-color: var(--white-btn);
     color: black;
+    transition: 0.3s;
+}
+
+#ps_now button:hover {
+    outline: 1px solid black;
+    outline-offset: -4px;
 }
 
 #ps_now .titolo_img {
@@ -362,5 +442,9 @@ footer .link_footer {
 
     footer .sony_img {
         padding-top: 4rem;
+    }
+
+    #sales .img-fluid {
+        padding-bottom: 1.5rem;
     }
 }
